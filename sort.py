@@ -170,6 +170,7 @@ def main():
 
     session = requests.Session()
     login(session)
+
     for t in wanted:
         add_torrent(session, t)
 
