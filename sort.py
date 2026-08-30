@@ -11,11 +11,11 @@ import sys
 
 # config:
 QBIT_HOST     = "http://localhost:8080"   # qBittorrent WebUI address
-QBIT_USER     = "pixel"                   # WebUI username
-QBIT_PASS     = "minerva"                 # WebUI password
+QBIT_USER     = ""                   # WebUI username
+QBIT_PASS     = ""                 # WebUI password
 
-TORRENT_DIR   = r"C:\Users\Greg\Downloads\MiNERVA-batch-torrent-downloader\used torrents"
-SAVE_PATH     = r"F:\Torrents\MiNERVA"
+TORRENT_DIR   = r""
+SAVE_PATH     = r""
 # change if you want to.
 CATEGORY      = "MiNERVA"
 ADD_PAUSED    = False
